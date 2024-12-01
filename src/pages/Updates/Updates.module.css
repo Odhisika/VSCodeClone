@@ -1,0 +1,205 @@
+.updates {
+  padding-top: 64px;
+}
+
+.banner {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.9rem;
+}
+
+.banner a {
+  color: #0098ff;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 64px - 40px);
+}
+
+.main {
+  flex: 1;
+  margin-left: 250px;
+  margin-right: 200px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.rightSidebar {
+  width: 200px;
+  padding: 2rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 104px;
+  height: calc(100vh - 104px);
+  border-left: 1px solid #e1e1e1;
+  background-color: #f5f5f5;
+}
+
+.rightSidebar h3 {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.rightSidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rightSidebar a {
+  color: #444;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.rightSidebar a:hover {
+  color: #0098ff;
+}.updates {
+  padding-top: 64px;
+}
+
+.banner {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.9rem;
+}
+
+.banner a {
+  color: #0098ff;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 64px - 40px);
+}
+
+.main {
+  flex: 1;
+  margin-left: 250px;
+  margin-right: 200px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.rightSidebar {
+  width: 200px;
+  padding: 2rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 104px;
+  height: calc(100vh - 104px);
+  border-left: 1px solid #e1e1e1;
+  background-color: #f5f5f5;
+}
+
+.rightSidebar h3 {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.rightSidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rightSidebar a {
+  color: #444;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.rightSidebar a:hover {
+  color: #0098ff;
+}.updates {
+  padding-top: 64px;
+}
+
+.banner {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+  font-size: 0.9rem;
+}
+
+.banner a {
+  color: #0098ff;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  min-height: calc(100vh - 64px - 40px);
+}
+
+.main {
+  flex: 1;
+  margin-left: 250px;
+  margin-right: 200px;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.rightSidebar {
+  width: 200px;
+  padding: 2rem 1rem;
+  position: fixed;
+  right: 0;
+  top: 104px;
+  height: calc(100vh - 104px);
+  border-left: 1px solid #e1e1e1;
+  background-color: #f5f5f5;
+}
+
+.rightSidebar h3 {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.rightSidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rightSidebar a {
+  color: #444;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.rightSidebar a:hover {
+  color: #0098ff;
+}

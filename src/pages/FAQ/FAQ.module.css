@@ -1,0 +1,103 @@
+.faq {
+    padding: 84px 20px 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #2c2c32;
+    margin-bottom: 1rem;
+  }
+  
+  .header p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .searchSection {
+    margin-bottom: 3rem;
+  }
+  
+  .searchSection input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #e1e4e8;
+    border-radius: 6px;
+    transition: border-color 0.2s;
+  }
+  
+  .searchSection input:focus {
+    outline: none;
+    border-color: #0098ff;
+  }
+  
+  .faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .faqItem {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faqItem h3 {
+    font-size: 1.25rem;
+    color: #2c2c32;
+    margin-bottom: 1rem;
+  }
+  
+  .faqItem p {
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .support {
+    text-align: center;
+  }
+  
+  .support h2 {
+    font-size: 2rem;
+    color: #2c2c32;
+    margin-bottom: 2rem;
+  }
+  
+  .supportOptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .supportCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+  .supportCard:hover {
+    transform: translateY(-4px);
+  }
+  
+  .supportCard h3 {
+    font-size: 1.25rem;
+    color: #2c2c32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .supportCard p {
+    color: #666;
+  }

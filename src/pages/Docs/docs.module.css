@@ -1,0 +1,68 @@
+.docs {
+  padding-top: 64px;
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+  position: fixed;
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+}
+
+.sidebar nav h3 {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #666;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li a {
+  display: block;
+  padding: 0.5rem 0;
+  color: #444;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.sidebar nav ul li a:hover {
+  color: #0098ff;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 250px;
+  max-width: 800px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #2c2c32;
+}
+
+.content section {
+  margin-bottom: 3rem;
+}
+
+.content h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #2c2c32;
+}
+
+.content p {
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 1rem;
+}
