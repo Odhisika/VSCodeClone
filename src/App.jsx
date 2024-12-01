@@ -5,7 +5,7 @@ import Home from "./pages/Home/Home";
 import styles from './App.module.css';
 import "./index.css"
 import Blog from "./pages/Blog/Blog";
-import Updates from "./pages/Updates/updates";
+import Updates from "./pages/Updates/Updates";
 import Docs from "./pages/Docs/Docs";
 import Extensions from "./pages/Extensions/Extensions";
 import FAQ from "./pages/FAQ/FAQ";
@@ -23,7 +23,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/docs" element={<Docs/>} />
-            <Route path="/updates" element={< Updates/>}/>
+            <Route path="/updates" element={<Updates/>}/>
             <Route path="/extensions" element={<Extensions />} />
             <Route path="/blog" element={<Blog/>} />
             <Route path="/faq" element={<FAQ/>} />
