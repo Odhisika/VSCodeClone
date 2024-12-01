@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Download } from 'lucide-react';
-import styles from './Header.module.css';
+import styles from './header.module.css';
 import VSCodeLogo from '../Icons/VSCodeLogo';
 
 const Header = () => {
