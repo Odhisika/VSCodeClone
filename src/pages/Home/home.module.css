@@ -1,0 +1,168 @@
+/* General Styles */
+.home {
+  padding-top: 64px;
+  background-color: #0d1117;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+.topNotice {
+  background-color: #161b22;
+  color: #c9d1d9;
+  padding: 10px;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.topNotice a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.topNotice a:hover {
+  text-decoration: underline;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  min-height: 600px;
+  background-color: #0d1117;
+  color: white;
+}
+
+.heroContent {
+  max-width: 700px;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.heroContent p {
+  font-size: 1.125rem;
+  margin: 1.5rem 0;
+  color: #8b949e;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.downloadButton {
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.downloadButton:hover {
+  background-color: #2ea043;
+}
+
+.altButton {
+  background-color: transparent;
+  color: #58a6ff;
+  border: 1px solid #58a6ff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.altButton:hover {
+  background-color: rgba(88, 166, 255, 0.1);
+}
+
+.webVersion {
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.webVersion a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.webVersion a:hover {
+  text-decoration: underline;
+}
+
+
+.heroImage {
+  margin-top: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.heroImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Features Section */
+.features {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #c9d1d9;
+}
+
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.featureCard {
+  padding: 1.5rem;
+  background-color: #161b22;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  color: #c9d1d9;
+}
+
+.featureCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.featureCard h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: #58a6ff;
+}
+
+.featureCard p {
+  color: #8b949e;
+  line-height: 1.6;
+}

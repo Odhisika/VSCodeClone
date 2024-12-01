@@ -1,0 +1,78 @@
+.content {
+    padding: 2rem;
+  }
+  
+  .securityUpdate {
+    margin-bottom: 2rem;
+  }
+  
+  .securityUpdate h3 {
+    color: #d83b01;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .updateSection {
+    margin-bottom: 2rem;
+  }
+  
+  .updateSection h3 {
+    font-size: 1.1rem;
+    color: #2c2c32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .downloads {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .downloads h3 {
+    font-size: 1.1rem;
+    color: #2c2c32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .downloads a {
+    color: #0098ff;
+    text-decoration: none;
+    margin: 0 0.25rem;
+  }
+  
+  .downloads a:hover {
+    text-decoration: underline;
+  }
+  
+  .highlights {
+    margin-top: 3rem;
+  }
+  
+  .highlights h3 {
+    font-size: 1.2rem;
+    color: #2c2c32;
+    margin-bottom: 1rem;
+  }
+  
+  .highlights ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights li {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .highlights li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #0098ff;
+  }
+  
+  .highlights strong {
+    color: #2c2c32;
+  }

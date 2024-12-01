@@ -1,0 +1,155 @@
+.copilot {
+    padding-top: 64px;
+  }
+  
+  .hero {
+    background-color: #2c2c32;
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  
+  .heroContent h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroContent p {
+    font-size: 1.5rem;
+    color: #ffffff99;
+    margin-bottom: 2rem;
+  }
+  
+  .tryButton {
+    background-color: #0098ff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .tryButton:hover {
+    background-color: #007acc;
+  }
+  
+  .features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .feature {
+    margin-bottom: 4rem;
+  }
+  
+  .feature h2 {
+    font-size: 2rem;
+    color: #2c2c32;
+    margin-bottom: 1rem;
+  }
+  
+  .feature p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .codeExample {
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-x: auto;
+  }
+  
+  .codeExample code {
+    color: #d4d4d4;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 0.9rem;
+  }
+  
+  .pricing {
+    background-color: #f5f5f5;
+    padding: 4rem 2rem;
+  }
+  
+  .pricing h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c2c32;
+    margin-bottom: 3rem;
+  }
+  
+  .pricingCards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pricingCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 350px;
+  }
+  
+  .pricingCard h3 {
+    font-size: 1.5rem;
+    color: #2c2c32;
+    margin-bottom: 1rem;
+  }
+  
+  .price {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c2c32;
+  }
+  
+  .period {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .pricingCard ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .pricingCard ul li {
+    padding: 0.5rem 0;
+    color: #444;
+  }
+  
+  .pricingCard ul li::before {
+    content: '✓';
+    color: #0098ff;
+    margin-right: 0.5rem;
+  }
+  
+  .pricingCard button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #0098ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .pricingCard button:hover {
+    background-color: #007acc;
+  }
+  
+  .enterprise {
+    background-color: #f8f9fa;
+    border: 2px solid #0098ff;
+  }
